@@ -2,7 +2,40 @@
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.logo img {
+    width: 210px;
+    height: 70px;
+}
+
+
+
+.navBar ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navBar ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+}
+
+.nav ul li a:hover {
+    text-decoration-line: underline;
+  }
+
+  .nav ul li a.active {
+    text-decoration: underline;
+  }

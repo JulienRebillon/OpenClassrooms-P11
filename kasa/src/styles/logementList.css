@@ -1,0 +1,10 @@
+.logementList {
+    background-color: #F6F6F6;
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+.logementContainer h2 {
+    text-align: center;
+}

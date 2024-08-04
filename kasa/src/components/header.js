@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/header.css';
 import { Link, useLocation } from 'react-router-dom'; // Import Link and useLocation
-
+import kasaLogo from "../images/Kasa_logo_big.png";
 
 const Header = () => {
     const location = useLocation(); //get the current location
@@ -10,7 +10,7 @@ const Header = () => {
         <header className="header">
 
             <div className='logo'>
-                <img src="./../images/Kasa_logo_big.png" alt="Logo Kasa"/>
+                <img src={kasaLogo} alt="Logo Kasa"/>
             </div>
 
             <nav className='navBar'>

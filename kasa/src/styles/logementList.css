@@ -2,7 +2,20 @@
     background-color: #F6F6F6;
     width: 100%;
     border-radius: 25px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px; 
 
+}
+
+.logementContainer {
+    display: grid;
+    padding: 50px 50px;
+    row-gap: 50px;
+    column-gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
 }
 
 .logementContainer h2 {

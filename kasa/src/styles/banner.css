@@ -5,6 +5,9 @@
     width: 100%;
     border-radius: 25px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -14,15 +17,28 @@
     filter: brightness(50%);
 }
 
+.banner2 {
+    border-radius: 25px;
+    width: 100%;
+    filter: brightness(70%);
+}
+
 .banner1_text {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    /* top: 30%;
+    left: 20%; */
 
     font-size: 64px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: white;
-    -webkit-text-stroke: 1px black;
+    
     /* text-stroke: 1px black; */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner1_text span {
+    /* -webkit-text-stroke: 1px black;
+    text-stroke: 1px black; */
+    
+    text-shadow: 0 0 3px black, 0 0 3px #0000FF
 }

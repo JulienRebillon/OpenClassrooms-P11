@@ -27,15 +27,19 @@
 }
 
 .navBar ul li a {
-    text-decoration: none;
+    
     font-weight: 500;
     font-size: large;
+    padding-bottom: 3px; /* Adds space between text and border */
+    margin-bottom: -3px; /* Adjusts border position */
+    text-decoration: none; /* Remove any default underline */
+    color: inherit; /* Ensure the link inherits the color from the parent */
+    border-bottom: 2px solid transparent; /* Default border is transparent */
+    transition: border-bottom 0.3s ease; /* Smooth transition for hover effect */
+    
 }
 
-.nav ul li a:hover {
-    text-decoration-line: underline;
-  }
-
-  .nav ul li a.active {
-    text-decoration: underline;
-  }
+.navBar ul li a:hover,
+.navBar ul li a.active {
+    border-bottom-color: black; /* Only visible on hover or if the link is active */
+}

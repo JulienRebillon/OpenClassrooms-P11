@@ -1,11 +1,12 @@
 
 import '../styles/banner.css';
+import bannerImage2 from '../images/Background_2_banner.png';
 
 
 const Banner2 = () => {
     return (
         <div>
-            <img src="../images/background_1_banner.png" alt="Banner1" className="Banner1"/>
+            <img src={bannerImage2} alt="Banner2" className="banner2"/>
             
         </div>
     );

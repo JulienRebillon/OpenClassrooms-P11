@@ -1,15 +1,16 @@
 import React from "react";
-import Header from './../components/header';
-import Footer from './../components/footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import PropertyCard from '../components/propertyCard';
 
 const LogementDetails = () => {
     return (
         <>
             <Header />
-            <LogementDetails />
+            <PropertyCard />
             <Footer />        
         </>
     );
 };
 
-export default LogementDetails
+export default LogementDetails;

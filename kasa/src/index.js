@@ -8,9 +8,10 @@ import {
 import Home from './pages/home';
 import Error from './pages/error';
 import About from './pages/about';
-import Logement from './pages/logement';
+import LogementDetails from './pages/logement';
 
 import reportWebVitals from './reportWebVitals';
+
 
 
 // Create the router
@@ -26,8 +27,8 @@ const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
-    path: "logement",
-    element: <Logement />,
+    path: "logementDetails",
+    element: <LogementDetails />,
     errorElement: <Error />
   }
 ]);

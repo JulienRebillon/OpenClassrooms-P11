@@ -17,6 +17,7 @@
     color: white;
     font-weight: 600;
     font-size: 24px;
+    padding-top: 3px;
 
 }
 
@@ -33,4 +34,29 @@
     margin-left: 10%;
     margin-right: 10%;
     font-size: 24px;
+}
+
+@media (max-width: 800px) { 
+    .collapse-title {
+        font-size: 20px;
+        
+    }
+
+    .collapse-content {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+  
+
+    .collapse-title {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    
+    .collapse-content {
+        font-size: 18px;
+    }
 }

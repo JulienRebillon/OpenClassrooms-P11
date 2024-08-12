@@ -10,7 +10,31 @@ footer {
     max-width: 1440px;
 }
 
+footer img {
+    width: 122px;
+}
+
 footer p {
     margin-top: 40px;
     font-size: 20px;
+}
+
+
+@media (max-width: 1024px) { 
+
+}    
+
+@media (max-width: 800px) { 
+    footer p {
+        font-size: 16px;
+    }
+}    
+
+@media (max-width: 576px) { 
+    footer p {
+        margin-top: 20px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
 }

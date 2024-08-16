@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
-    path: "logementDetails",
+    path: "logement/:id", // Dynamic route for LogementDetails
     element: <LogementDetails />,
     errorElement: <Error />
   }

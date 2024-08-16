@@ -22,3 +22,26 @@
 .logementContainer h2 {
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    .logementContainer {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+
+    .logementList {
+        background-color: white;
+        padding-bottom: 80px;
+    }
+
+    .logementContainer {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+       
+        border-radius: 0px;
+        padding: 0px;
+        
+
+    }
+}

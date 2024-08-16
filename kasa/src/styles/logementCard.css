@@ -13,8 +13,25 @@
 .cardContent {
     position: absolute;
     z-index: 2;
-    bottom: 15px;
+    bottom: 0px;
     left: 10px;
     font-weight: 500;
+    font-size: 14px;
+    text-align: left;
     color: white;
+}
+
+
+
+@media (max-width: 800px) {
+    .cardContent {
+        font-size: 16px;
+    }
+   
+}
+
+@media (max-width: 576px) {
+    .cardContent {
+        font-size: 16px;
+    }
 }

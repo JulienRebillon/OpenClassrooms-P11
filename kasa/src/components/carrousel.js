@@ -6,7 +6,7 @@ import ArrowRight from '../images/Arrow-Right.png';
 function Slider ({pictures}) {
 
     const [index, setIndex] = useState(0)  // Counter initialisation
-    const totalPictures = pictures.length-1 // max nnumber of images
+    const totalPictures = pictures.length-1 // max number of images
 
     if (index < 0) setIndex(totalPictures)  // 
     if (index > totalPictures) setIndex(0)  // reset counter to return to the beginning

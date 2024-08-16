@@ -8,6 +8,7 @@ footer {
     bottom: 0;
     width: 100%;
     max-width: 1440px;
+    z-index: 5;
 }
 
 footer img {

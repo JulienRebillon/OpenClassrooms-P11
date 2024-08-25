@@ -1,0 +1,172 @@
+.property-card {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 100px;
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    .property-tag {
+      background-color: #ff6060;
+      margin-right: 15px;
+      color: white;
+      padding: 3px 25px;
+      border-radius: 10px;
+    }
+  
+    .property-title {
+      margin-bottom: 5px;
+    }
+  
+    .property-location {
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  
+    .property-header {
+      display: flex;
+      justify-content: space-between;
+  
+      .host-info {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin-top: 20px;
+  
+        .host-picture {
+          border-radius: 50%;
+          margin-left: 20px;
+          width: 80px;
+        }
+  
+        .host-name {
+          color: #ff6060;
+        }
+      }
+    }
+  
+    .property-rating {
+      margin-top: 20px;
+  
+      .star {
+        width: 40px;
+        margin-left: 20px;
+      }
+  
+      &:first-child {
+        margin-left: 0; // Ensures no extra margin on the first star
+      }
+    }
+  
+    .property-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 0%;
+      width: 100%;
+  
+      .property-description,
+      .property-equipments {
+        width: 45%; // Adjust width to fit two components side by side
+      }
+  
+      .collapse {
+        width: 100%;
+  
+        .collapse-header {
+          margin-left: 0;
+          margin-right: 0;
+        }
+  
+        .collapse-content {
+          ul {
+            list-style-type: none;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .property-header {
+      flex-direction: column;
+    }
+  
+    .host-container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  
+    .property-rating {
+      width: 50%;
+      height: 35px;
+      padding-top: 25px;
+  
+      .star {
+        width: 30px;
+        margin-left: 15px;
+      }
+  
+      &:first-child {
+        margin-left: 0; // Ensures no extra margin on the first star
+      }
+    }
+  
+    .property-container {
+      flex-direction: column;
+  
+      .property-description,
+      .property-equipments {
+        width: 100%; // Adjust width to fit two components side by side
+      }
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .property-header {
+      flex-direction: column;
+    }
+  
+    .host-container {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+  
+    .host-name {
+      text-align: end;
+    }
+  
+    .property-rating {
+      width: 50%;
+      height: 35px;
+      padding-top: 25px;
+  
+      .star {
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 10px;
+      }
+  
+      &:first-child {
+        margin-left: 0; // Ensures no extra margin on the first star
+      }
+    }
+  
+    .property-container {
+      flex-direction: column;
+  
+      .property-description,
+      .property-equipments {
+        width: 100%; // Adjust width to fit two components side by side
+      }
+  
+      .collapse-title,
+      .collapse-content {
+        font-size: 16px;
+      }
+    }
+  }
+  

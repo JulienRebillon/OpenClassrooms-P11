@@ -20,34 +20,38 @@ function PropertyCard({ title, location, host, rating, description, equipments, 
                         ))}
                     </div>
                 </div>
-                <div className="host-info">
-                    <div className="host-name">{host.name}</div>
-                    <img className="host-picture" src={host.picture} alt={`${host.name}`} />
-                </div>
-                
-                <div className="property-rating">
-                    {ratingStars.map((isFilled, index) => (
-                        <img 
-                            key={index} 
-                            src={isFilled ? StarFull : StarEmpty} 
-                            alt={isFilled ? "Full Star" : "Empty Star"} 
-                            className="star"
-                        />
-                    ))}
+
+                <div className ="host-container">
+                    <div className="host-info">
+                        <div className="host-name">{host.name}</div>
+                        <img className="host-picture" src={host.picture} alt={`${host.name}`} />
+                    </div>
+                    
+                    <div className="property-rating">
+                        {ratingStars.map((isFilled, index) => (
+                            <img 
+                                key={index} 
+                                src={isFilled ? StarFull : StarEmpty} 
+                                alt={isFilled ? "Full Star" : "Empty Star"} 
+                                className="star"
+                            />
+                        ))}
+                    </div>
                 </div>
 
             </div>
 
             
+            <div className='property-container'>
+                <div className="property-description">
+                    {/* Pass description as a string to the content prop */}
+                    <Collapse title="Description" content={description} />
+                </div>
 
-            <div className="property-description">
-                {/* Pass description as a string to the content prop */}
-                <Collapse title="Description" content={description} />
-            </div>
-
-            <div className="property-equipments">
-                {/* Pass equipments array directly to the content prop */}
-                <Collapse title="Équipements" content={equipments} />
+                <div className="property-equipments">
+                    {/* Pass equipments array directly to the content prop */}
+                    <Collapse title="Équipements" content={equipments} />
+                </div>
             </div>
           
 

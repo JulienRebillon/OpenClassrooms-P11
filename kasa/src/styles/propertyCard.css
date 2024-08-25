@@ -1,3 +1,35 @@
+.property-card {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 100px;
+}
+
 h1 {
     font-size: 36px;
+}
+
+.property-tag {
+    background-color: #FF6060;
+    margin-right: 15px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+.property-title {
+    margin-bottom: 5px;
+}
+
+.property-location {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.property-header {
+    display: flex;
+    justify-content: space-between;
 }

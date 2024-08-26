@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/propertyCard.css';
+import '../styles/propertyCard.scss';
 import Collapse from './collapse';
 import StarFull from '../images/Star-full.png';
 import StarEmpty from '../images/Star-empty.png';

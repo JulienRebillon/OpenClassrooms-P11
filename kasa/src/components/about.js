@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/about.css';
+import '../styles/about.scss';
 import Collapse from './collapse';
 
 const About = () => {

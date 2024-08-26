@@ -1,0 +1,32 @@
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 5;
+
+    img {
+        width: 122px;
+    }
+
+    p {
+        margin-top: 40px;
+        font-size: 20px;
+
+        @media (max-width: 800px) {
+            font-size: 16px;
+        }
+
+        @media (max-width: 576px) {
+            margin-top: 20px;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

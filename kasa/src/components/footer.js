@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/footer.css';
+import '../styles/footer.scss';
 import kasaFooter from '../images/Kasa_logo_black.png';
 
 const Footer = () => {

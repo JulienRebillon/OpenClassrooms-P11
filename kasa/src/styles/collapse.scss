@@ -1,0 +1,50 @@
+.collapse {
+    .collapse-header {
+        background-color: #FF6060;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 10%;
+        padding: 10px 0 6px;
+        border-radius: 6px;
+        cursor: pointer; /* Indicates it's clickable */
+    }
+
+    .collapse-title {
+        margin-left: 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 3px;
+
+        @media (max-width: 800px) {
+            font-size: 20px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 18px;
+            padding-top: 5px;
+        }
+    }
+
+    .collapse-icon {
+        margin-right: 20px;
+        transition: transform 0.3s ease;
+
+        &.open {
+            transform: rotate(180deg);
+        }
+    }
+
+    .collapse-content {
+        margin: 0 10%;
+        font-size: 24px;
+
+        @media (max-width: 800px) {
+            font-size: 20px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 18px;
+        }
+    }
+}

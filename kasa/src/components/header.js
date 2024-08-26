@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/header.scss';
 import { Link, useLocation } from 'react-router-dom'; // Import Link and useLocation
 import kasaLogo from "../images/Kasa_logo_big.png";
 

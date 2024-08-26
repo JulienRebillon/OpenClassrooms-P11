@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/logementList.css';
+import '../styles/logementList.scss';
 import LogementCard from '../components/logementCard';
 import LogementData from '../data/data.json';
 

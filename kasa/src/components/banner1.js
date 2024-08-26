@@ -1,5 +1,5 @@
 
-import '../styles/banner.css';
+import '../styles/banner.scss';
 import bannerImage1 from '../images/Background_1_banner.png';
 
 

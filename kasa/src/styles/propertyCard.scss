@@ -17,6 +17,7 @@
   
     .property-title {
       margin-bottom: 5px;
+      color: #ff6060;
     }
   
     .property-location {
@@ -97,6 +98,13 @@
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
+    }
+
+    .property-tag {      
+      margin-right: 10px !important;      
+      padding: 3px 15px !important;
+      border-radius: 10px;
+      font-size: 15px;
     }
   
     .property-rating {

@@ -17,6 +17,7 @@
         ul {
             display: inline-block;
             list-style-type: none;
+            padding-left: 0;
 
             li {
                 display: inline-block;
@@ -49,8 +50,8 @@
 
     .logo {
         img {
-            width: 140px;
-            height: 48px;
+            width: 145px !important;
+            height: 48px !important;
         }
     }
 
@@ -58,7 +59,8 @@
         ul {
             li {
                 a {
-                    font-size: 20px;
+                    font-size: 18px;
+                    
                 }
             }
         }
@@ -71,12 +73,13 @@
     }
 
     .navBar {
+        
         ul {
             li {
-                margin-left: 10px;
+                margin-left: 20px !important;
 
                 a {
-                    font-size: 12px;
+                    font-size: 14px !important;
                     text-transform: uppercase;
                 }
             }
